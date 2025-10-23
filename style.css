@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    background-color: #0f0f0f;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    color:rgb(233, 233, 233);
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-rocha {
+  width: 90px; 
+  height: auto;
+  display: block;
+  background: transparent;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  margin: 10px;
+  margin-top: 10px;
+  padding-top: 1px;
+  gap: 60px;
+}
+
+.container-welcome {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25rem;
+  white-space: nowrap;
+  padding-top: 25px;
+
+}
+
+.container-contato {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 2px;
+}
+.social-icons {
+  padding-top: 2px;
+  font-size: 25px;
+  padding-right: 20px;
+  
+}
+
+.social-icons .iconig {
+  text-decoration: none;
+}
+
+.iconig:hover i {
+  color: yellow;
+  cursor: pointer;
+  font-size: 2rem; 
+  background: linear-gradient(45deg,  #edf033, #e6973c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iconig:hover i span {
+  color: yellow;
+  cursor: pointer;
+  font-size: 2rem; 
+  background: linear-gradient(45deg,  #edf033, #e6973c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconwpp:hover i {
+  cursor: pointer; 
+  font-size: 2rem;
+  background: linear-gradient(45deg, #25D366, #25D366);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconwpp:hover i span {
+  cursor: pointer; 
+  font-size: 2rem;
+  background: linear-gradient(45deg, #25D366, #25D366);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-header h1,
+.container-header h2 {
+  margin: 0;             
+  line-height: 1;        
+  display: inline-block;  
+}
+
+.corredor-masc {
+  filter: hue-rotate(630deg);
+  background-color: transparent;
+  
+}
+
+.expo {
+  padding: 10px;
+  padding-top: 50px;
+  margin: 10px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.main-desc {
+  /* white-space: nowrap; */
+  font-size: 30px;
+  max-width: 700px;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.main-desc p{
+  font-size: 25px;
+  max-width: 900px;
+}
+
+strong {
+  color: #049e42;
+   text-shadow:
+    0 0 5px #049e42,
+ 
+    
+    0 0 40px #049e42,
+    0 0 80px #049e42;
+  font-weight: bold;
+}
+
+.section-1 {
+  margin-bottom: 170px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.section-2 {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  
+}
+
+.container-catalog h2 {
+  font-size: 50px;  
+  background: #09e43849; 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 15px; 
+  box-shadow: 0 4px 30px rgba(44, 44, 44, 0.2); 
+  padding: 20px;
+  text-align: 5rem;
+  position: relative;
+}
+
+.rodape-catalog {
+  margin-top: 500px;
+  text-align: center;
+  
+}
+
+.basquet {
+  width: 300px;
+  height: auto;
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+.chut{
+  width: 300px;
+  padding-left: 50px;
+  transform: rotate(40deg);
+  background-color: transparent;
+  position: absolute;
+  top: 10;
+  right: 60px;
+   filter: drop-shadow(0 0 5px rgb(255, 255, 255))
+          drop-shadow(0 0 40px rgb(255, 255, 255));
+ 
+}
+
+
+.container-catalog {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+body {
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 16px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card {
+    margin: 50px;
+    background-color: #0f0f0f;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 50px 100px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card>h1 {
+    font-size: 30px;
+    padding-top: 10px;
+    color:#f2f3f0;
+    margin-top: 10px;
+    
+}
+
+
+.card>img{
+    width: 60%; /* diminui a largura */
+    margin: 0 auto; /* centraliza */
+    height: auto; /* mantém proporção */
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    padding: 0; /* evita que o padding interfira */
+}
+
+.btn {
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    background-color: transparent;
+    color: #119c23;
+    border: 5px solid #119c23;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card>p{
+    padding: 10px;
+    font-size: 20px;
+    color: #ecfff3;
+    background-color: transparent;
+}
+
+
+.card>span{
+    margin-top: 10px;
+    font-size: 25px;
+    justify-content: center;
+    color: rgb(235, 255, 243);
+   text-shadow:
+    0 0 5px #ecfff3,
+    0 0 40px #ecfff3,
+    0 0 80px #ecfff3;
+  font-weight: 60px;
+}
+
+
+.btn:hover{
+    color: #119c248f;
+    border: 5px solid #119c248f;
+    transform: scale(0.8);
+}
+
+.card:hover {
+    transform: scale(1.09);
+    box-shadow: rgb(0, 0, 0) 0px 60px 120px -20px, rgba(0, 0, 0, 0.35) 0px 40px 70px -30px;
+    
+}
+
+h3{
+  margin: 70px;
+}
+
